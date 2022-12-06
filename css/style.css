@@ -1,0 +1,117 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.navbar-brand {
+   position: relative;
+   top: 7px;
+}
+
+.text-block {
+   width: 100%;
+   position: relative;
+   bottom: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.text-block__header {
+   color: white;
+}
+
+.text-block__text {
+   color: white;
+}
+
+.main {
+   width: 100%;
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+}
+
+.catalog-header {
+   text-align: center;
+   max-width: 1000px;
+   padding: 0 20px;
+}
+
+.cards {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+
+
+.cards__wrapper {
+   max-width: 1000px;
+   padding: 0 20px;
+   margin-bottom: 20px;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   gap: 20px;
+}
+
+.card {
+   width: 300px;
+   height: 300px;
+   background-color: lightgray;
+   border: 2px;
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+}
+
+.card-body {
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+}
+
+.card img {
+   width: 200px;
+   height: 200px;
+}
+
+.contact-block {
+   max-width: 1000px;
+   display: flex;
+   flex-flow: column nowrap;
+   padding: 0 10px;
+}
+
+.contact-block p {
+   font-size: 22px;
+}
+
+@media (max-width: 1024px) {
+   .d-block {
+      height: 600px;
+   }
+}
+
+@media (max-width: 768px) {
+   .d-block {
+      height: 400px;
+   }
+
+   .text-block {
+      bottom: 250px;
+   }
+}
+
+@media (max-width: 525px) {
+   .d-block {
+      height: 320px;
+   }
+
+   .text-block {
+      bottom: 200px;
+   }
+} 
